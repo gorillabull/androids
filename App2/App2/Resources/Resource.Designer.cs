@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("App1.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("App2.Resource", IsApplication=true)]
 
-namespace App1
+namespace App2
 {
 	
 	
@@ -44,11 +44,8 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int editText1 = 2130968576;
-			
-			// aapt resource value: 0x7f040001
-			public const int editText2 = 2130968577;
+			// aapt resource value: 0x7f050000
+			public const int myButton = 2131034112;
 			
 			static Id()
 			{
@@ -63,8 +60,8 @@ namespace App1
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -76,11 +73,30 @@ namespace App1
 			}
 		}
 		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7f020000
+			public const int Icon = 2130837504;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040001
+			public const int app_name = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int hello = 2130968576;
 			
 			static String()
 			{
